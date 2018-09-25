@@ -1,0 +1,33 @@
+/* body {
+    height: 98vh
+} ; */
+
+main {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 50px 1fr;
+}; 
+
+h1 {
+    background-color: rgb(172, 61, 187);
+    height: 50px;
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+
+};
+
+#field {
+    border: 1px solid black;
+     height: 50px;
+
+    margin: auto;
+    text-align: center;
+
+    width: 500%;
+    margin: auto;
+    padding-top: 50px;
+   text-align: center;
+};
+
